@@ -26,12 +26,12 @@ function App() {
     content = <UsersList usersList={users} onDeleteUser={deleteUserHandler} />;
   }
   return (
-    <div className="App">
+    <>
       <section id="input-form">
         <InputForm onAddUser={addUserHandler} />
       </section>
       <section id="output-users">{content}</section>
-    </div>
+    </>
   );
 }
 
