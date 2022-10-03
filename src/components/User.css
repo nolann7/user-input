@@ -1,0 +1,7 @@
+.output__added-user {
+  box-sizing: content-box;
+  width: 98%;
+  height: 1.4rem;
+  border: 1px solid #bbb;
+  padding: 0.4rem;
+}

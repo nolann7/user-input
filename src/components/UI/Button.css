@@ -1,0 +1,13 @@
+.button {
+  box-sizing: border-box;
+  padding: 0.4rem 1.5rem;
+  font: inherit;
+  border-radius: 0;
+  background-color: purple;
+  color: white;
+  border: 0;
+  font-weight: 600;
+}
+.button:hover {
+  background-color: blueviolet;
+}
